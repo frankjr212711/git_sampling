@@ -1,7 +1,6 @@
 
 .container {
-    height: 100vh;
-    
+    min-height: 100vh;
     background: #065fd4;
 }
 .container header {
@@ -37,6 +36,13 @@
 }
 .container header nav ul li a.active {
     font-weight: bolder;
+}
+.content {
+    width: 1000px;
+    margin: 10px auto;
+    height: 90vh;
+    max-width: 100%;
+    background: #fff;
 }
 @media screen and (max-width: 500px) {
     header {
