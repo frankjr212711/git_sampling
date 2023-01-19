@@ -1,0 +1,22 @@
+
+
+.container header {
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, .23);
+}
+.container header nav {
+    float: right; 
+}
+.container header nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container header nav ul li {
+    display: inline-block;
+}
+.container header nav ul li a {
+    font-size: 1.1rem;
+    font-family: montserrat;
+}
