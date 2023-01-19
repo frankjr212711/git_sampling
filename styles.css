@@ -8,7 +8,7 @@
 }
 .container header nav {
     float: right; 
-    width: 50%;
+    /* width: 50%; */
 }
 .container header::after {
     content: "";
@@ -34,11 +34,11 @@
     font-weight: bolder;
 }
 @media screen and (max-width: 500px) {
-    header nav {
+    header {
         background: honeydew;
     }
-    header nav ul {
-        display: flex;
-        justify-content: center;
+    header nav {
+       width: 500px;
+       
     }
 }
