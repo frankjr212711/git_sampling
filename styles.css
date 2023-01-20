@@ -33,6 +33,15 @@
 .container header nav ul li a.active {
     font-weight: bolder;
 }
+
+.content {
+    margin: 0 auto;
+    padding: 1rem 100px;
+
+}
+
+
+
 @media screen and (max-width: 500px) {
     header nav {
         background: honeydew;
